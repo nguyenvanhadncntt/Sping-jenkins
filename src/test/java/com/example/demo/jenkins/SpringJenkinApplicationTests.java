@@ -19,5 +19,10 @@ class SpringJenkinApplicationTests {
 		LOGGER.info("Application excuted test...");
 		assertEquals(true, true);
 	}
+	
+	@Test
+	void testSecondUTLog() {
+		LOGGER.info("The second UT....!");
+	}
 
 }
